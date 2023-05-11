@@ -1,0 +1,633 @@
+@import url('/css/reset.css');
+@import url('/css/global.css');
+@import url('/css/root.css');
+@import url('/css/components/menu.css');
+@import url('/css/components/button.css');
+
+/* page igp */
+/* igp-cook */
+.igp-cook__content {
+   width: var(--size-eight);
+   height: var(--size-eight);
+   background-color: var(--cor-primary);
+   color: var(--cor-secondary);
+   position: fixed;
+   right: var(--rem-four);
+   bottom: var(--rem-four);
+   height: var(--rem-five);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   z-index: 20;
+}
+
+.igp-cook__content p {
+   font-family: var(--font-secondary);
+   font-size: var(--rem-six);
+}
+
+/* igp-bg */
+.igp-bg__bg {
+   background-image: url('/img/bgigp.png');
+   background-repeat: repeat;
+   background-size: auto;
+}
+
+.igp-bg__logo {
+   height: var(--size-six);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url(/img/logo.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: var(--size-seven);
+}
+
+
+/* .igp-promo */
+.igp-promo {
+   width: var(--size-eight);
+   height: var(--size-eight);
+   background-color: var(--cor-grey);
+   text-align: center;
+   color: var(--cor-secondary);
+   padding: var(--size-three);
+   font-family: var(--font-secondary);
+   font-size: var(--rem-one);
+}
+
+.igp-promo header {
+   transition: 0.3s;
+   opacity: 0.7;
+}
+
+.igp-promo header:hover {
+   opacity: 1;
+}
+
+/* igp-info  */
+.igp-info {
+   width: var(--size-eight);
+   height: var(--size-eight);
+   background-color: var(--cor-clear);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+
+.igp-info__header {
+   margin-top: var(--size-two);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.igp-info__header i {
+   font-size: var(--rem-seven);
+   margin-bottom: var(--rem-two);
+   color: var(--cor-secondary);
+}
+
+.igp-info__header h1 {
+   padding: var(-size-x-one);
+   font-family: var(--font-primary);
+   font-size: var(--rem-fiveteen);
+   font-weight: 900;
+   text-align: center;
+}
+
+.igp-info__header h2 {
+   font-family: var(--font-primary);
+   font-size: var(--rem-nine);
+   font-weight: 900;
+   text-align: center;
+}
+
+.igp-info__header p {
+   font-family: var(--font-secondary);
+   font-weight: 500;
+   font-size: var(--rem-tem);
+}
+
+.igp-info button {
+   margin-bottom: var(--size-two);
+}
+
+/* main client */
+.igp-client {
+   width: var(--size-eight);
+   height: var(--size-eight);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+
+.igp-client__header i {
+   color: var(--cor-secondary);
+   font-size: var(--rem-seven);
+   margin-top: var(--size-two);
+   margin-bottom: var(--size-one);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.igp-client__header h2 {
+   color: var(--cor-clear);
+   font-family: var(--font-primary);
+   font-size: var(--rem-fiveteen);
+   font-weight: 900;
+   margin-bottom: var(--size-one);
+}
+
+.igp-client div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: var(--size-two);
+}
+
+.igp-client div a {
+   filter: grayscale(100%);
+}
+
+.igp-client div a:hover {
+   zoom: 1.1;
+   filter: grayscale(10%);
+}
+
+/* igp-reven */
+.igp-reven {
+   background-color: var(--cor-grey);
+   color: var(--cor-clear);
+   text-align: center;
+   padding: var(--size-one);
+}
+
+.igp-reven h2 {
+   padding: var(--size-one);
+   font-family: var(--font-primary);
+   font-size: var(--rem-eleven);
+   font-weight: 900;
+}
+
+/* main service */
+.igp-service {
+   width: var(--size-eight);
+   height: var(--size-eight);
+   background-color: var(--cor-clear);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.igp-service h2 {
+   font-family: var(--font-primary);
+   font-size: var(--rem-eleven);
+   font-weight: 900;
+}
+
+.igp-service__plan {
+   margin: var(--size-two);
+}
+
+.igp-service__plan h2 {
+   font-family: var(--font-primary);
+   font-size: var(--rem-twelve);
+   font-weight: 900;
+}
+
+.igp-service__plan article h3 {
+   font-family: var(--font-primary);
+   font-size: var(--rem-six);
+   font-weight: 900;
+   margin-top: var(--size-one);
+}
+
+.igp-service__plan article p {
+   font-family: var(--font-secondary);
+   font-size: var(--rem-thirteen);
+}
+
+
+/* main talk */
+.igp-talk {
+   background-color: var(--cor-grey);
+   width: var(--size-eight);
+   height: var(--size-eight);
+   margin: auto;
+   color: var(--cor-clear);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.igp-talk div {
+   margin-top: var(--size-one);
+   margin-bottom: var(--size-two);
+   margin-bottom: var;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-direction: row;
+}
+
+.igp-talk article {
+   width: --size-four;
+   height: var(-size-nine);
+   border-radius: var(--rem-two);
+   border: solid 1px var(--cor-secondary);
+   margin: var(--size-one);
+   padding: var(--size-x-two);
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-direction: column;
+}
+
+.igp-talk h2 {
+   padding-top: var(--size-two);
+   font-family: var(--font-primary);
+   font-size: var(--rem-eleven);
+   font-weight: 900;
+}
+
+.igp-talk h3 {
+   font-family: var(--font-primary);
+   font-size: var(--rem-fourteen);
+}
+
+.igp-talk span {
+   color: var(--cor-secondary);
+}
+
+.igp-talk p {
+   font-family: var(--font-secondary);
+   font-size: var(--rem-thirteen);
+}
+
+/* igp-who */
+.igp-who {
+   width: --size-eight;
+   height: --size-eight;
+   background-color: var(--cor-clear);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.igo-who__header h2 {
+   font-family: var(--font-primary);
+   font-size: var(--rem-fiveteen);
+   font-weight: 900;
+   padding-bottom: var(--size-one);
+   text-align: center;
+}
+
+.igp-who div {
+   margin: var(--size-two);
+}
+
+.igp-who h3 {
+   font-family: var(--font-primary);
+   font-size: var(--rem-three);
+   font-weight: 900;
+   padding-bottom: var(--size-one);
+}
+
+.igp-who p {
+   font-family: var(--font-secondary);
+   font-size: var(--rem-thirteen);
+   padding-bottom: var(--size-one);
+}
+
+/* igp-contact */
+.igp-contact {
+   width: var(--size-eight);
+   height: var(--size-nine);
+   background-color: var(--cor-grey);
+   color: var(--cor-clear);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.igp-contact h2 {
+   text-align: center;
+   font-family: var(--font-primary);
+   font-size: var(--rem-eleven);
+}
+
+.igp-contact__app {
+   background-color: var(--cor-grey);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.igp-contact__app article {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+}
+
+.igp-contact__app i {
+   padding: var(--size-three);
+   font-size: var(--rem-nine);
+}
+
+.igp-contact__app article p {
+   color: var(--cor-Clear);
+   font-family: var(--font-secondary);
+   font-size: var(--rem-fourteen);
+}
+
+.igp-contact__app article a {
+   color: var(--cor-Clear);
+}
+
+/* footer */
+.igp-footer {
+   width: --size-eight;
+   height: --size-eight;
+   background-color: var(--cor-primary);
+   color: var(--cor-Dark);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: var(--font-primary);
+   font-size: var(--rem-two);
+}
+
+footer h2 {
+   padding: var(--size-two);
+}
+
+/* arrow top */
+.igp-link__top {
+   position: fixed;
+   right: var(--rem-fiveteen);
+   bottom: var(--rem-fiveteen);
+   width: var(--rem-fiveteen);
+   height: var(--rem-fiveteen);
+   font-size: var(--rem-sixteen);
+   background-color: var(--cor-secondary);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: var(--cor-dark);
+   border-radius: var(--rem-fiveteen);
+   box-shadow: 0 0.1rem 0.6rem #00000009;
+}
+
+/*responsive*/
+@media(max-width: 1024px) {
+   .igp-client img {
+      max-width: var(--size-eleven);
+   }
+
+   .igp-talk article {
+      width: var(--size-twelve);
+      height: var(-size-thirteen);
+   }
+
+   .igp-cook__content {
+      width: auto;
+      height: auto;
+      border: 2px solid var(--cor-secondary);
+      margin: var(--size-three);
+      left: var(--size-three);
+      border-radius: var(--size-fourteen);
+      overflow: hidden;
+      display: block;
+   }
+
+   .igp-cook__content p {
+      padding: var(--size-three);
+   }
+
+   .igp-cook__content button {
+      margin-left: var(--size-sixteen);
+   }
+}
+
+@media(max-width: 900px) {
+   .igp-info h1 {
+      font-size: var(--rem-tem);
+   }
+
+   .igp-client img {
+      max-width: var(size-seventeen);
+   }
+
+   .igp-talk article {
+      width: var(--size-eightteen);
+      height: var(--size-nineteen);
+   }
+}
+
+@media(max-width: 768px) {
+   .igp-info h1 {
+      font-size: var(--rem-three);
+   }
+
+   .igp-client img {
+      max-width: var(--size-twenty);
+   }
+
+   .igp-client h2 {
+      font-size: var(--rem-tem);
+   }
+
+   .igp-service h2 {
+      font-size: var(var(--rem-tem));
+   }
+
+   .igp-service__plan h2 {
+      font-size: var(--rem-three);
+   }
+
+   .igp-talk div {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+   }
+
+   .igp-talk article {
+      width: var(--size-twentyone);
+      height: var(--size-twentytwo);
+      margin-bottom: var(--size-one);
+   }
+
+   .igp-contact__app article p {
+      font-size: var(--rem-six);
+   }
+}
+
+@media(max-width: 720px) {
+   .igp-contact h2 {
+      font-size: var(--rem-nine);
+   }
+
+   .igp-info p {
+      text-align: center;
+      padding: 0px 10px 0px 10px;
+   }
+
+   .igp-contact__app article p {
+      font-size: var(--rem-two);
+   }
+}
+
+@media(max-width: 480px) {
+   .igp-info h2 {
+      padding: var(--size-x-four);
+   }
+
+   .igp-info p {
+      padding: var(--size-x-four);
+   }
+
+   .igp-client div {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+   }
+
+   .igp-client img {
+      max-width: var(--size-eleven);
+   }
+
+   .igp-service h2 {
+      text-align: center;
+      font-size: var(--rem-fourteen);
+   }
+
+   .igp-service__plan h2 {
+      font-size: var(--rem-six);
+   }
+
+   .igp-talk h2 {
+      font-size: var(--rem-three);
+   }
+
+   .igp-contact {
+      height: var(--size-twentyone);
+   }
+
+   .igp-contact h2 {
+      font-size: var(--rem-nine);
+   }
+
+   .igp-contact__app {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+   }
+
+   .igp-contact__app article {
+      margin-bottom: var(--size-one);
+   }
+
+   .igp-contact__app article p {
+      font-size: 1.5rem;
+      padding-right: var(--size-one);
+   }
+}
+
+@media(max-width: 375px) {
+   .igp-bg__logo {
+      background-size: var(--size-twentythree);
+   }
+
+   .igp-info h1 {
+      font-size: var(--rem-six);
+   }
+
+   .igp-info p {
+      padding: var(--size-x-four);
+      font-size: var(--rem-seventeen);
+   }
+
+   .igp-service h2 {
+      padding: var(--size-x-four);
+      text-align: center;
+      font-size: var(--rem-thirteen);
+   }
+
+   .igp-talk h2 {
+      font-size: var(--rem-six);
+   }
+
+   .igp-talk article {
+      width: var(--size-twelve);
+      height: var(--size-seventeen);
+      margin-bottom: var(--size-one);
+   }
+
+   .igp-contact {
+      height: var(--size-twentyone);
+   }
+}
+
+@media(max-width: 320px) {
+   .igp-bg__logo {
+      background-size: var(--size-twentyfour);
+   }
+
+   .igp-info h1 {
+      font-size: var(--rem-two);
+   }
+
+   .igp-info p {
+      padding: var(--size-x-three);
+      font-size: var(--rem-two);
+   }
+
+   .igp-client h2 {
+      font-size: var(--rem-six);
+   }
+
+   .igp-service h2 {
+      text-align: center;
+      font-size: var(--rem-thirteen);
+   }
+
+   .igp-talk h2 {
+      text-align: center;
+      font-size: var(--rem-three);
+   }
+
+   .igp-talk article {
+      width: var(--size-eightteen);
+      height: var(--size-twentyfive);
+      margin-bottom: var(--size-one);
+   }
+
+   .igp-contact {
+      height: var(--size-twentyone);
+   }
+
+   .igp-contact__app article p {
+      font-size: var(--rem-seventeen);
+   }
+
+   .igp-footer {
+      font-size: var(--rem-eightteen);
+   }
+}

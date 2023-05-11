@@ -1,0 +1,34 @@
+@import url('/css/reset.css');
+@import url('/css/global.css');
+@import url('/css/root.css');
+@import url('/css/components/button.css');
+
+/* page l-index */
+.igp-section {
+    margin-top: var(--size-two);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.igp-section h1 {
+    display: none;
+    color: var(--cor-secondary);
+    padding-top: var(--size-one);
+    font-family: var(--font-primary);
+    text-align: center;
+}
+
+/* responsive */
+@media(max-width: 480px) {
+    .igp-section img {
+        max-width: var(--size-five);
+    }
+}
+
+@media(max-width: 375px) {
+    .igp-section img {
+        max-width: var(--size-four);
+    }
+}

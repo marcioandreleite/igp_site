@@ -1,0 +1,74 @@
+:root {
+    /* color */
+    --cor-bg: #000000;
+    --cor-dark: #0e0d0d;
+    --cor-grey: #0f0f0f;
+    --cor-clear: #ffffff;
+    --cor-primary: #93b7e7;
+    --cor-secondary: #fb2d4c;
+
+    /* font */
+    --font-primary: 'Roboto', serif;
+    --font-secondary: 'Big Shoulders Text', serif;
+    --font-action: 'Barlow Condensed', serif;
+
+    /* size */
+    --size-sixteen: 40%;
+    --size-eight: 100%;
+    --size-fourteen: 5px;
+    --size-twentyeight: 2px;
+    --size-thirty: 3px;
+    --size-twentynine: 8px;
+    --size-three: 10px;
+    --size-one: 20px;
+    --size-twentyseven: 32px;
+    --size-two: 40px;
+    --size-ten: 60px;
+    --size-twentytwo: 120px;
+    --size-twenty: 135px;
+    --size-nine: 150px;
+    --size-seventeen: 160px;
+    --size-thirteen: 170px;
+    --size-eleven: 180px;
+    --size-twentyfive: 200px;
+    --size-nineteen: 210px;
+    --size-eightteen: 240px;
+    --size-twelve: 250px;
+    --size-twentyfour: 280px;
+    --size-four: 300px;
+    --size-twentythree: 320px;
+    --size-twentyone: 350px;
+    --size-five: 400px;
+    --size-six: 420px;
+    --size-seven: 430px;
+    --size-twentysix: 1360px;
+
+    --size-x-one: 2px 10px;
+    --size-x-two: 15px 15px;
+    --size-x-three: 0px 10px 0px 10px;
+    --size-x-four: 0px 15px 0px 15px;
+
+    /* rem */
+    --rem-eightteen: 0.8rem;
+    --rem-four: 0rem;
+    --rem-two: 1rem;
+    --rem-seventeen: 1.1rem;
+    --rem-six: 1.2rem;
+    --rem-thirteen: 1.3rem;
+    --rem-fourteen: 1.4rem;
+    --rem-three: 1.5rem;
+    --rem-twelve: 1.6rem;
+    --rem-sixteen: 1.7rem;
+    --rem-tem: 1.8rem;
+    --rem-one: 1.9rem;
+    --rem-nine: 2rem;
+    --rem-eleven: 2.5rem;
+    --rem-fiveteen: 3rem;
+    --rem-seven: 5rem;
+    --rem-five: 6rem;
+
+    --rem-x-one: 1rem 2rem;
+
+
+
+}

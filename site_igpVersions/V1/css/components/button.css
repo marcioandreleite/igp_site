@@ -1,0 +1,13 @@
+.igp-btn__go button {
+    cursor: pointer;
+    font-family: var(--font-action);
+    font-size: var(--rem-one);
+    font-weight: 400;
+    color: var(--cor-secondary);
+    margin: var(--rem-two);
+    padding: var(--rem-x-one);
+    border: 1;
+    border-color: var(--cor-secondary);
+    border-radius: var(--size-three);
+    background: var(--cor-dark);
+}
